@@ -7,7 +7,7 @@ st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 sns.set(style="whitegrid")
 
 # Membaca data bersih
-df = pd.read_csv("Dashboard/main_data.csv")
+df = pd.read_csv("dashboard/main_data.csv")
 df["dteday"] = pd.to_datetime(df["dteday"])
 
 # Sidebar untuk filter interaktif
