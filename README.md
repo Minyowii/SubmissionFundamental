@@ -1,13 +1,20 @@
 # Bike Sharing Analytics Dashboard
 
-## Struktur Direktori
-- `dashboard/`: Berisi `dashboard.py` (kode utama aplikasi Streamlit) dan `main_data.csv` (dataset hasil pembersihan).
-- `data/`: Berisi dataset mentah `day.csv` dan `hour.csv`.
-- `notebook.ipynb`: Berisi seluruh proses analisis data dari Data Wrangling hingga Conclusion.
-- `requirements.txt`: Daftar library Python yang dibutuhkan beserta versinya.
-- `url.txt`: Tautan menuju dashboard yang telah di-deploy ke Streamlit Cloud.
+Proyek akhir analisis data menggunakan Bike Sharing Dataset (2011–2012) untuk menganalisis pola penyewaan sepeda berdasarkan musim, tipe pengguna (*casual* vs *registered*), pola jam operasional (hari kerja vs akhir pekan/libur), serta segmentasi waktu operasional (*clustering*).
 
-## Cara Menjalankan Dashboard di Lokal
-1. Instal seluruh library yang dibutuhkan:
-   ```bash
-   pip install -r requirements.txt
+## Struktur Direktori
+
+Pastikan susunan folder dan berkas di dalam direktori proyek adalah sebagai berikut:
+
+```text
+SubmissionFundamental/
+├── Dashboard/
+│   ├── dashboard.py
+│   └── main_data.csv
+├── Data/
+│   ├── day.csv
+│   └── hour.csv
+├── notebook.ipynb
+├── README.md
+├── requirements.txt
+└── url.txt
